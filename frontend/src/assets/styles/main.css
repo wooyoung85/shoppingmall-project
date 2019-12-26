@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+:root {
+  --accent: #ea918d;
+  --accentHover: #de8a86;
+  --dark: #304659;
+  --dark80: rgba(48, 70, 89, 0.8);
+  --dark60: rgba(48, 70, 89, 0.6);
+  --light: #f5f9fc;
+  --transition: all 0.3s ease 0s;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main-page {
+  min-height: 100vh;
+  max-height: 100%;
+  overflow: auto;
+  background: linear-gradient(var(--dark60), var(--dark60)),
+    url(../images/main/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: minmax(60px, 1fr) repeat(6, minmax(1fr, 190px)) minmax(
+      60px,
+      1fr
+    );
+  grid-template-rows: 120px 1fr;
+  font-family: '나눔고딕';
+}
+
+#main-page p,
+a,
+button {
+  font-family: "Lato", sans-serif;
+  color: var(--light);
+  text-decoration: none;
+}
+
+#main-page a,
+button,
+.logo {
+  cursor: pointer;
+}
+
+#main-page header {
+  grid-column: 1 / span 8;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+#main-page nav {
+  grid-column: 2 / span 6;
+  display: flex;
+  align-items: center;
+}
+
+#main-page main {
+  grid-column: 1 / span 8;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+#main-page .links {
+  margin-left: auto;
+}
+
+#main-page .links a,
+.links button {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  transition: var(--transition);
+}
+
+#main-page .links a {
+  margin-right: 50px;
+}
+
+#main-page .links a:hover {
+  color: var(--accent);
+}
+
+#main-page .button_med {
+  border: none;
+  background-color: var(--accent);
+  padding: 8px 25px;
+  transition: var(--transition);
+}
+
+#main-page .button_med a {
+  margin-right: 0px;
+}
+
+#main-page .button_med:hover {
+  background-color: var(--accentHover);
+}
+
+#main-page .info {
+  grid-column: 1 / span 8;
+  text-align: center;
+  padding: 60px 0;
+}
+
+#main-page .main_title {
+  color: var(--light);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 4.375rem;
+}
+
+#main-page .main_info {
+  margin:20px auto 40px;
+  color:gainsboro
+}
+
+#main-page .button_jumbo {
+  font-size: 30px;
+  border: none;
+  background-color: var(--accent);
+  padding: 12px 32px;
+  transition: var(--transition);
+}
+
+#main-page .icons {
+  display: flex;
+  margin-top: 55px;
+}
+
+#main-page .icon {
+  display: flex;
+  align-items: center;
+}
+
+#main-page .icon_info {
+  margin: 0 80px 0 20px;
+}
+
+#main-page .icon_top {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+#main-page .icon_bottom {
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+
+#main-page .features {
+  grid-column: 2 / span 7;
+  background-color: var(--dark80);
+  padding: 40px 0 0 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-self: end;
+}
+
+#main-page .feature {
+  display: flex;
+  margin: 0 60px 40px 0px;
+}
+
+#main-page .feature:nth-child(3) {
+  align-self: flex-start;
+}
+
+#main-page .feature img {
+  height: 100px;
+  margin-right: 20px;
+}
+
+#main-page .feature_info {
+  margin-top: 10px;
+}
+
+#main-page .feature_top,
+#main-page .feature_cta {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#main-page .feature_cta {
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+#main-page .feature_cta:hover {
+  color: var(--accent);
+}
+
+#main-page .feature_bottom {
+  width: 180px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1100px) {
+  #main-page .icon img {
+    height: 55px;
+    width: auto;
+  }
+
+  #main-page .icon_top {
+    font-size: 1rem;
+  }
+
+  #main-page .icon_bottom {
+    font-size: 1.125rem;
+  }
+
+  #main-page .hero_font {
+    font-size: 2.1875rem;
+  }
+
+  #main-page #main-page .features {
+    grid-column: 1 / span 8;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #main-page nav .links {
+    display: none;
+  }
+
+  #main-page .info {
+    grid-column: 2 / span 6;
+  }
+
+  #main-page .icons {
+    flex-direction: column;
+  }
+
+  #main-page .icon {
+    margin-bottom: 20px;
+  }
+
+  #main-page .feature {
+    flex-direction: column;
+  }
+}

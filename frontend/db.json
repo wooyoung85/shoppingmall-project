@@ -1,0 +1,138 @@
+{
+  "cellphones": [
+    {
+      "id": "s1",
+      "brand": "samsung",
+      "name": "Galaxy S10",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "support": "welfare",
+      "variants": [
+        {
+          "variantId": "s1_1",
+          "variantColor": "프리즘 그린",
+          "variantColorCode": "#32829D",
+          "variantImage": "A0ZA_001",
+          "variantQuantity": 10
+        },
+        {
+          "variantId": "s1_2",
+          "variantColor": "프리즘 블랙",
+          "variantColorCode": "#231F20",
+          "variantImage": "A0Z6_001",
+          "variantQuantity": 2
+        },
+        {
+          "variantId": "s1_3",
+          "variantColor": "프리즘 화이트",
+          "variantColorCode": "#D2EDF4",
+          "variantImage": "A0Z8_001",
+          "variantQuantity": 0
+        },
+        {
+          "variantId": "s1_4",
+          "variantColor": "플라밍고 핑크",
+          "variantColorCode": "#F2756D",
+          "variantImage": "A13T_001",
+          "variantQuantity": 100
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "brand": "samsung",
+      "name": "갤럭시 폴드 5G",
+      "description": "Sapien quis purus, nulla magna purus tempus.",
+      "support": "none",
+      "variants": [
+        {
+          "variantId": "s2_1",
+          "variantColor": "스페이스 실버",
+          "variantColorCode": "#E6EDEE",
+          "variantImage": "A1FD_001",
+          "variantQuantity": 10
+        },
+        {
+          "variantId": "s2_2",
+          "variantColor": "코스모스 블랙",
+          "variantColorCode": "#000000",
+          "variantImage": "A125_001",
+          "variantQuantity": 2
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "brand": "samsung",
+      "name": "갤럭시 A80",
+      "description": " Imperdiet adipiscing aliquet gravida nisl.",
+      "support": "none",
+      "variants": [
+        {
+          "variantId": "s3_1",
+          "variantColor": "엔젤 골드",
+          "variantColorCode": "#D2BAB6",
+          "variantImage": "A1JY_001",
+          "variantQuantity": 10
+        },
+        {
+          "variantId": "s3_2",
+          "variantColor": "팬텀 블랙",
+          "variantColorCode": "#111113",
+          "variantImage": "A15G_001",
+          "variantQuantity": 2
+        }
+      ]
+    },
+    {
+      "id": "a1",
+      "brand": "apple",
+      "name": "iPhone XR",
+      "description": "Tincidunt turpis ligula tincidunt bibendum ut.",
+      "support": "cashbag",
+      "variants": [
+        {
+          "variantId": 21,
+          "variantColor": "옐로",
+          "variantColorCode": "#F9D045",
+          "variantImage": "A0QP_001",
+          "variantQuantity": 10
+        },
+        {
+          "variantId": 22,
+          "variantColor": "화이트",
+          "variantColorCode": "#F3F3F3",
+          "variantImage": "A0QM_001",
+          "variantQuantity": 2
+        },
+        {
+          "variantId": 23,
+          "variantColor": "Product Red",
+          "variantColorCode": "#B41325",
+          "variantImage": "A0QN_001",
+          "variantQuantity": 0
+        },
+        {
+          "variantId": 24,
+          "variantColor": "코럴",
+          "variantColorCode": "#FF6E5A",
+          "variantImage": "A0QQ_001",
+          "variantQuantity": 10
+        },
+        {
+          "variantId": 25,
+          "variantColor": "블루",
+          "variantColorCode": "#48AEE6",
+          "variantImage": "A0QR_001",
+          "variantQuantity": 0
+        },
+        {
+          "variantId": 26,
+          "variantColor": "블랙",
+          "variantColorCode": "#2E3034",
+          "variantImage": "A0PY_001",
+          "variantQuantity": 100
+        }
+      ]
+    }
+  ]
+}
